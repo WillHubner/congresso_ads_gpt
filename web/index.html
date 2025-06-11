@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perguntas e Respostas</title>
+  <link href="style.css" rel="stylesheet">  
+</head>
+<body>
+
+  <div class="card">
+    <h2>Faça uma pergunta</h2>
+    <div class="input-group">
+      <input type="text" id="perguntaInput" placeholder="Digite sua pergunta..." />
+      <button onclick="enviarPergunta()" id="enviarBtn">Enviar</button>
+    </div>
+  </div>
+
+  <div id="respostaContainer" class="card" style="display: none;">
+    <h2>Resposta em Texto</h2>
+    <pre class="code-box"><code id="respostaTexto"></code></pre>
+
+    <h2>Tabela de Resultados</h2>
+    <div id="tabelaContainer"></div>
+  </div>
+   <script src="request.js"></script>
+</body>
+</html>
