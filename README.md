@@ -12,8 +12,6 @@ Você pode visualizar o modelo esquemático do banco de dados através do link a
 
 ![Arquitetura do Projeto](./docs/arquitetura.png)
 
-> *Substitua o caminho acima pelo local ou URL da imagem da arquitetura do sistema.*
-
 ## 🧰 Tecnologias Utilizadas
 
 ### Frontend
